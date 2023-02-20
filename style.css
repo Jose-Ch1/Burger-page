@@ -12,3 +12,35 @@
     --texto-texto-3: #ff3535;
     --color-twxto-4: #505050;
 }
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.main{
+    width: 100%;
+}
+.section1{
+    background: url(img/banner.png) no-repeat right top;
+    height: calc(100vh);
+}
+.header{
+    background: var(--color-header);
+    display: flex;
+    width: 100%;
+    height: 75px;
+    border-bottom: solid 2px var(--color-header-borde);
+}
+.header-logo{
+    width: 30%; 
+}
+.logo{
+    object-fit: cover;
+    height: 100%;
+    padding: 20px 30px;
+}
+.nav{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+}
